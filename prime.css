@@ -1,0 +1,43 @@
+body {
+  min-height: 100dvh;
+}
+
+
+header {
+  min-height: 100dvh;
+  background-color: black;
+
+  & button {
+    background-color: #7cc576;
+  }
+
+  & .knight-logo {
+    height: 11rem;
+  }
+}
+
+nav {
+  min-height: 5dvh;
+
+ & a {
+  text-decoration: none;
+  color: inherit;
+ }
+
+ & .knight-logo {
+  height: 4rem;
+ }
+}
+
+section {
+  min-height: 30dvh;
+}
+
+.checkmarks li {
+  list-style: none;
+
+  &::before {
+    color: #7cc576;
+    content: ' ✓✓ ';
+  }
+}
